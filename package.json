@@ -1,0 +1,33 @@
+{
+  "name": "nodejsapp",
+  "version": "0.0.1",
+  "description": "Basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "mezhang",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/cosmos": "^3.17.2",
+    "@azure/identity": "^3.1.2",
+    "@azure/storage-blob": "^12.12.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.8.0",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "uuid": "^9.0.0"
+  }
+}
